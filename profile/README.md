@@ -1,11 +1,11 @@
 ## Hello there! :) 
-## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and with love for Oxford Brookes Racing: Autonomous, the university's team. But is open source for all teams.
+## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and with love for Oxford Brookes Racing: Autonomous, the university's team. But is open source for all teams all over the world.
 ## Please feel free to fork and add things to it once it is submitted. 
 
 ## Aimed System Requirements (may work on other systems)
 Ubuntu 20.04. 
 ROS2 Foxy.
-Unity ver. 
+Unity ver 2022.3.11.
 
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams. 
