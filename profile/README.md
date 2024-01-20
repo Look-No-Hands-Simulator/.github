@@ -15,6 +15,9 @@ It is to help teams to test their ROS2 based algorithms by creating simulated se
 
 ## How to use
 
+## Where did the funny name come from?
+At my time at Oxford Brookes Racing: Autonomous this joke was made because the cars are autonomously driven. 
+
 <!--
 
 **Here are some ideas to get you started:**
