@@ -2,8 +2,16 @@
 ## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and with love for Oxford Brookes Racing: Autonomous, the university's team. But is open source for all teams.
 ## Please feel free to fork and add things to it once it is submitted. 
 
+## Aimed System Requirements (may work on other systems)
+Ubuntu 20.04. 
+ROS2 Foxy.
+Unity ver. 
+
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams. 
+
+## What's the purpose of this simulator?
+It is to help teams to test their ROS2 based algorithms by creating simulated sensor data that can publish onto topics that can then be used by algorithms to send back control commands by publishing ADS_DV_Msgs topics which the simulator will subscribe to and actuate the car in Unity to accelerate, brake. The simulator aims to have different environments and interface with missions. 
 
 ## How to use
 
