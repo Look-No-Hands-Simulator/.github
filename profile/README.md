@@ -8,7 +8,8 @@ ROS2 Foxy.
 Unity ver 2022.3.11.
 
 ## What is formula Student Driverless?
-It's a student competition for creating autonomous racing cars in university teams. 
+It's a student competition for creating autonomous racing cars in university teams created by ImEchE. 
+https://www.imeche.org/events/formula-student/team-information/fs-ai
 
 ## What's the purpose of this simulator?
 It is to help teams to test their ROS2 based algorithms by creating simulated sensor data that can publish onto topics that can then be used by algorithms to send back control commands by publishing ADS_DV_Msgs topics which the simulator will subscribe to and actuate the car in Unity to accelerate, brake. The simulator aims to have different environments and interface with missions. 
