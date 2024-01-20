@@ -1,7 +1,5 @@
-## Hi there :) 
-## This is the Look No Hands Formula Student Driverless Simulator
-## It was developed with support from Oxford Brookes University as a dissertation project 
-## and with love for Oxford Brookes Racing: Autonomous, the university's team. But is open source for all teams.
+## Hello there! :) 
+## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and with love for Oxford Brookes Racing: Autonomous, the university's team. But is open source for all teams.
 ## Please feel free to fork and add things to it once it is submitted. 
 
 ## What is formula Student Driverless?
