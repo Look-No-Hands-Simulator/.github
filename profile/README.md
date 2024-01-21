@@ -9,7 +9,7 @@ Unity ver 2022.3.11.
 Rviz2.
 
 ## What is formula Student Driverless?
-It's a student competition for creating autonomous racing cars in university teams created by ImEchE. 
+It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
 https://www.imeche.org/events/formula-student/team-information/fs-ai
 
 ## What's the purpose of this simulator?
