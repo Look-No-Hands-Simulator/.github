@@ -22,10 +22,10 @@ Various open source tools have been used in this project they include:
 - Unity Game Engine: https://unity.com/
 - Lidar: https://github.com/sudhirpratapyadav/unity_ros_lidar_3d
 - FSAI API: https://github.com/FS-AI/FS-AI_API
-- ADS-DV CAD: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
+- ADS-DV CAD model: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
 - Depth camera: Unity's ImageSynthesis package
 - The JSON files of cone tracks were made by an alumni of OBRA: [Belle Garlick](https://github.com/BelleGarlick)
-- The cone 3D models were made by an alumni of OBRA: [Jordan Trainor](https://www.linkedin.com/in/jordantrainor/)
+- The cone 3D models and blue/red ADS-DV texture were made by an alumni of OBRA: [Jordan Trainor](https://www.linkedin.com/in/jordantrainor/)
 - These two developers added code in the early stages as the selection menu and asphalt ground and a connector to Gazebo and fixes, some of this code may be available or unavailable but they were a part of this project while at OBRA: [Tony South](https://github.com/t-south) and [Elias Fandi](https://github.com/eliasfandi)
 - The simulator was inspired by the Gazebo simulator made by older OBRA alumni, the way this simulator connects with ROS2 was heavily inspired by it, accredited to [Jacob Culley](https://github.com/jacobculley),[Elias Fandi](https://github.com/eliasfandi),[Jordan Trainor](https://www.linkedin.com/in/jordantrainor/),[Enric Gil](https://www.linkedin.com/in/enric-ge/)
 
