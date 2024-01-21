@@ -25,7 +25,7 @@ Various open source tools have been used in this project they include:
 - FSAI CAD: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
 - Depth camera: Unity's ImageSynthesis package
 - The JSON files were made by an alumni of OBRA: [Belle Garlick](https://github.com/BelleGarlick)
-- These two developers added code in the early stages as the selection menu and asphalt ground and a connector to Gazebo and fixes, some of this code may be available or unavailiable but they were a part of this project while at OBRA: [Tony South]https://github.com/t-south and [Elias Fandi]https://github.com/eliasfandi
+- These two developers added code in the early stages as the selection menu and asphalt ground and a connector to Gazebo and fixes, some of this code may be available or unavailiable but they were a part of this project while at OBRA: [Tony South](https://github.com/t-south) and [Elias Fandi](https://github.com/eliasfandi)
 
 Resources and tutorials that were a great help:
 - Unity wheel colliders model: https://www.homeandlearn.co.uk/games-programming/unity-wheel-colliders.html
