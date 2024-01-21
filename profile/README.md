@@ -18,7 +18,7 @@ It is to help teams to test their ROS2 based algorithms by creating simulated se
 ## How to use
 
 ## Credits
-Various open source tools have been used in this project they include:
+Various open source tools have been used in this project or items created by others with permission, they include:
 - Unity Game Engine: https://unity.com/
 - Lidar: https://github.com/sudhirpratapyadav/unity_ros_lidar_3d
 - FSAI API: https://github.com/FS-AI/FS-AI_API
