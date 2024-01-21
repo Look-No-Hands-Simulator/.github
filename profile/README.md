@@ -22,7 +22,7 @@ Various open source tools have been used in this project they include:
 - Unity Game Engine: https://unity.com/
 - Lidar: https://github.com/sudhirpratapyadav/unity_ros_lidar_3d
 - FSAI API: https://github.com/FS-AI/FS-AI_API
-- FSAI CAD: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
+- ADS-DV CAD: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
 - Depth camera: Unity's ImageSynthesis package
 - The JSON files of cone tracks were made by an alumni of OBRA: [Belle Garlick](https://github.com/BelleGarlick)
 - The cone 3D models were made by an alumni of OBRA: [Jordan Trainor](https://www.linkedin.com/in/jordantrainor/)
