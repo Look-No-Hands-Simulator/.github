@@ -12,7 +12,7 @@ Rviz2.
 ## How to use
 - Navigate to unityros-ws on Github and clone this repository into a folder you can make called 'unityros-ws'.
 - Then follow the instructions inside it on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories.
-- Please then build the workspace with `colcon build --symlink-install`
+- Please then build the workspace with `colcon build --symlink-install` at the root of 'unityros-ws' folder.
 - and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built)
 - and then use `ros2 run ros_tcp_endpoint default_server_endpoint` to run the ROS-TCP-Connector endpoint node and start the server in a new terminal.
 - then you can open unity-assets (the Unity project folder) in Unity.
