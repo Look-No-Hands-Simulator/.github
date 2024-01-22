@@ -9,7 +9,7 @@ Unity ver 2022.3.11.
 Rviz2.
 
 ## Recommendations for running a system with the right requirements
-I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and booting it then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option. Alternatively you may wish to dual boot.
+I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and starting it up, then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option. Alternatively you may wish to dual boot.
 
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
