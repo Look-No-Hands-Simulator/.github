@@ -22,6 +22,11 @@ Rviz2.
 ## Recommendations for running a system with the right requirements
 I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and starting it up, then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option, saving, and restarting the PC. Alternatively you may wish to dual boot.
 
+## Packages to install
+Make sure you have https://github.com/Unity-Technologies/ROS-TCP-Connector by following the graphical instructions to add this package inside Unity.
+//Add shell files//
+//Add Disc image file//
+
 ## What the simulator includes
 - Simulated sensors that publish to topics including: LiDAR, IMU, GPS, Wheelspeeds, Stereo camera, Depth maps, Ground truth position. With gaussian noise and covariance options.
 - RVIZ2 visualization of sensor data.
