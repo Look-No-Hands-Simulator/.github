@@ -27,7 +27,7 @@ I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will tr
 - RVIZ2 visualization of sensor data.
 - A physics vehicle model of the ADS-DV with ackermann steering
 - Vehicle model keyboard control for braking, steer, acceleration (space = brake, w = acceleration, s = reverse if enabled) with published control values on ROS2 topics.
-- Vehicle model control through ROS2 subscription to topics reading ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle. The ADS-DV simulated subscribes to `/AI2VCUSteer` , `/AI2VCUDriveF` , `/AI2VCUDriveReverse` (if reverse included) , `AI2VCUBrake` , The names of each of these can be changed within Unity by selecting CAR-ROOT object and changing the values within the Car Control script inside the Inspector.
+- Vehicle model control through ROS2 subscription to topics reading ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle. The ADS-DV simulated subscribes to `/AI2VCUSteer` , `/AI2VCUDriveF` , `/AI2VCUDriveReverse` (if reverse included) , `/AI2VCUBrake` , The names of each of these can be changed within Unity by selecting CAR-ROOT object and changing the values within the Car Control script inside the Inspector.
 - Generation of cone track maps with a selection menu.
 - Day and night cycle.
 
