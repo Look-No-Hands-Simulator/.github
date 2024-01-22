@@ -11,6 +11,12 @@ Rviz2.
 ## Recommendations for running a system with the right requirements
 I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and starting it up, then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option, saving, and restarting the PC. Alternatively you may wish to dual boot.
 
+## What the simulator includes
+- Simulated sensors that publish to topics including: LiDAR, IMU, GPS, Wheelspeeds, Stereo camera, Depth maps. With gaussian noise and covariance options.
+- A physics vehicle model of the ADS-DV with braking, steer, acceleration through keyboard control (space = brake, w = acceleration, s = reverse if enabled) or ROS2 subscription to ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle.
+- Generation of cone track maps with a selection menu.
+- Day and night cycle.
+
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
 https://www.imeche.org/events/formula-student/team-information/fs-ai
