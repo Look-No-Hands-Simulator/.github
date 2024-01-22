@@ -43,7 +43,7 @@ Various open source tools have been used in this project or items created by oth
 - These two developers added code in the early stages as a spinning selection menu and asphalt ground and a connector to Gazebo and fixes, some of this code may be available or unavailable but they were a part of this project while at OBRA: [Tony South](https://github.com/t-south) and [Elias Fandi](https://github.com/eliasfandi)
 - The simulator was inspired by the Gazebo simulator made by older OBRA alumni, the way this simulator connects with ROS2 was heavily inspired by it, accredited to [Jacob Culley](https://github.com/jacobculley),[Elias Fandi](https://github.com/eliasfandi),[Jordan Trainor](https://www.linkedin.com/in/jordantrainor/),[Enric Gil](https://www.linkedin.com/in/enric-ge/)
 
-- With big thanks to all support.
+- With big thanks to all support and support over the years at university. Including all OBRA friends, family, friends, supervisor, and teachers. :)  
 
 Resources and tutorials that were a great help:
 - Unity wheel colliders model: https://www.homeandlearn.co.uk/games-programming/unity-wheel-colliders.html
