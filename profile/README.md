@@ -10,7 +10,7 @@ Unity ver 2022.3.11.+.
 Rviz2.
 
 ## How to use
-- Navigate to unityros-ws on Github and clone this repository.
+- Navigate to unityros-ws on Github and clone this repository into a folder you can make called 'unityros-ws'.
 - Then follow the instructions inside it on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories.
 - Please then build the workspace with `colcon build --symlink-install`
 - and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built)
