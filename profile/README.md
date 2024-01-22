@@ -48,6 +48,7 @@ Which looks like this ->
 ## Credits
 Various open source tools have been used in this project or items created by others with permission, they include:
 - Unity Game Engine: https://unity.com/
+- Unity ROS-TCP-Connector: https://github.com/Unity-Technologies/ROS-TCP-Connector
 - Lidar: https://github.com/sudhirpratapyadav/unity_ros_lidar_3d
 - FSAI API: https://github.com/FS-AI/FS-AI_API
 - ADS-DV CAD model: https://github.com/FS-AI/FS-AI_ADS-DV_CAD
