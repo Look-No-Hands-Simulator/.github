@@ -6,7 +6,7 @@
 ## Aimed System Requirements (may work on other systems)
 Ubuntu 20.04. 
 ROS2 Foxy.
-Unity ver 2022.3.11.
+Unity ver 2022.3.11.+
 Rviz2.
 
 ## How to use
