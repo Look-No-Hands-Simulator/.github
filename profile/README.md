@@ -13,7 +13,8 @@ Rviz2.
 - Then follow the instructions inside it on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories.
 - Please then build the workspace with `colcon build --symlink-install`
 - and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built)
-- and then using `ros2 run ros_tcp_endpoint default_server_endpoint`, then you can open unity-assets in Unity.
+- and then using `ros2 run ros_tcp_endpoint default_server_endpoint`,
+- then you can open unity-assets in Unity.
 - Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
 - If you are having trouble please make sure you remembered to source ROS2 with `source opt/ros/foxy/setup.bash`.
 
