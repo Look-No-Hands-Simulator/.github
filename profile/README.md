@@ -25,7 +25,9 @@ I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will tr
 ## What the simulator includes
 - Simulated sensors that publish to topics including: LiDAR, IMU, GPS, Wheelspeeds, Stereo camera, Depth maps, Ground truth position. With gaussian noise and covariance options.
 - RVIZ2 visualization of sensor data.
-- A physics vehicle model of the ADS-DV with ackermann steering and braking, steer, acceleration through keyboard control (space = brake, w = acceleration, s = reverse if enabled) or ROS2 subscription to ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle.
+- A physics vehicle model of the ADS-DV with ackermann steering
+- Vehicle model keyboard control for braking, steer, acceleration (space = brake, w = acceleration, s = reverse if enabled) with published control values on ROS2 topics.
+- Vehicle model control through ROS2 subscription to topics reading ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle.
 - Generation of cone track maps with a selection menu.
 - Day and night cycle.
 
