@@ -1,4 +1,4 @@
-## Hello there! 🙂 👋
+## Hello there! :)
 ## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and for Oxford Brookes Racing: Autonomous, the university's FSAI (FSD) team. But is open source for all teams, all over the world, and you can use it if you are not on a team too or whoever you are as long as you don't use it for profit.
 ## Please feel free to fork and add things to it or change it once it is submitted!!!
 
