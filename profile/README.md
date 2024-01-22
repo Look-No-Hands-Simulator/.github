@@ -8,6 +8,9 @@ ROS2 Foxy.
 Unity ver 2022.3.11.
 Rviz2.
 
+## How to use
+Navigate to unityros-ws and clone this repository. Then follow the instructions inside it on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories. Please then build the workspace with colcon build --symlink-install and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built) and then using `ros2 run ros_tcp_endpoint default_server_endpoint`, then you can open unity-assets in Unity. Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
+
 ## Recommendations for running a system with the right requirements
 I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and starting it up, then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option, saving, and restarting the PC. Alternatively you may wish to dual boot.
 
@@ -34,9 +37,6 @@ Which looks like this ->
 - Localization and mapping: given the local 'can see right in front of the car' data from the vision sensors you can now combine this with odometry sensors such as the IMU, Wheelspeeds, GPS -> which are providing motion data. You will want to know where the car is in the world/map (localization) whilst creating a map of the world. You might use a SLAM algorithm to do this and combine the odometry data with the observations (vision data).
 - Path planning: Given you know the location of cones and the car or perhaps a local or global map you will now want to plan a path for the car through this world. You may go through the center or you may create a racing line. If you were to imagine the map in a 2D way you could use delaunay triangulation on the cones to create an understanding of the driveable path. You could also use any search algorithm such as A*.
 - Control: Now that you have created a path of perhaps waypoints or splines you want to control the vehicle to move to these waypoints etc. and thus you might use either a PID or MPC controller which are controllers that will be fed back the errors in the way the car responds through braking, throttle, steering, (given the dynamics will mean the movements are not perfect as you command) to keep following a look-ahead point and reach the goals. You will also need to probably communicate to the car from the PC through a CAN BUS network and therefore the signals will have to be converted to ones the hardware controllers can understand but the ADS-DV will do this for you so unless you are making your own driverless vehicle this part you can use the ADS-DV interface, this simulator also does abstract the detail of the hardware controllers which would exist in the real world. 
-
-## How to use
-Navigate to unityros-ws and clone this repository. Then follow the instructions inside it on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories. Please then build the workspace with colcon build --symlink-install and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built) and then using `ros2 run ros_tcp_endpoint default_server_endpoint`, then you can open unity-assets in Unity. Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
 
 ## Credits
 Various open source tools have been used in this project or items created by others with permission, they include:
