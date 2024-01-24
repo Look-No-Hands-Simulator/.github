@@ -72,7 +72,7 @@ Various open source tools have been used in this project or items created by oth
 Resources and tutorials that were a great help:
 - Unity wheel colliders model: https://www.homeandlearn.co.uk/games-programming/unity-wheel-colliders.html
 
-**I think Unreal engine would have been better suited for this project therefore if you are thinking of doing a similar project I recommend you to use Unreal engine for its superior performance (C++), automotive support, and better lighting and destruction system.**
+**I think Unreal engine would have been better suited for this project therefore if you are thinking of doing a similar project I recommend you to use Unreal engine for its superior performance (C++), automotive support, and better lighting and destruction system. A simulator like this has already been created here https://fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/software-install-instructions/ and Formula Student Driverless Simulator is very well documented!**
 
 ## Where did the funny name come from?
 At my time at Oxford Brookes Racing: Autonomous this joke was made because the cars are autonomously driven. 
