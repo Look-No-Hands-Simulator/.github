@@ -44,7 +44,7 @@ https://www.imeche.org/events/formula-student/team-information/fs-ai
 It is to help teams to test their ROS2 based algorithms by creating simulated sensor data that can publish onto topics that can then be used by algorithms to send back control commands by publishing ADS_DV_Msgs topics which the simulator will subscribe to and actuate the car in Unity to accelerate, brake. The simulator aims to have different environments and interface with missions. 
 
 ## What does a general software pipeline I can plug into this look like?
-You would generally either take a complete machine learning approach or standard classical pipeline with different algorithms, but if you follow Formula Student Driverless Germany there are many great presentations and documents on creating a pipeline. 
+You would generally either take a complete machine learning approach or standard classical pipeline with different algorithms, although generally any algorithm stack will always follow a 'sense, plan, act' methodology. But if you follow Formula Student Driverless Germany there are many great presentations and documents on creating a pipeline.
 
 Which looks like this -> 
 - **Mission and state control**: You would probably make a ROS2 launch file to launch the appropriate software nodes you need for the particular mission you choose to execute for this launch file (skidpad or acceleration etc.). In there you would also need to make sure to run the node ROS-TCP-Endpoint from this simulator if you wanted to use it whence you can then run the unity-assets project to start the simulator. You may also need a state machine to check what state your system is in and what it should be doing, also for safety if the emergency brake is pressed then the system should go into shutdown.
