@@ -18,6 +18,7 @@ Rviz2.
 - then you can open unity-assets (the Unity project folder) in Unity.
 - Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
 - If you are having trouble please make sure you remembered to source ROS2 with `source opt/ros/foxy/setup.bash`.
+- It's probably best to keep your software pipeline ROS2 code in a seperate workspace folder therefore you can `source ./install/setup.bash` source it whilst also sourcing the unityros-ws and then use both at the same time, remember you'll need to source them in every new terminal you open.
 
 ## Recommendations for running a system with the right requirements
 I recommend you to use an external SSD with a SATA to USB-C cable (USB-C will transfer data faster than USB-A), on this SSD install Ubuntu and thus you can boot it from plugging it into your personal computer and starting it up, then entering into SSD from the boot menu. This requires you to enter the boot menu of your personal computer by pressing a button such as F11 repeatedly on startup then disabling secure boot from the menu options and adding the SSD as a bootable drive option, saving, and restarting the PC. Alternatively you may wish to dual boot.
