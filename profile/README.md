@@ -13,7 +13,7 @@ Rviz2.
 - Navigate to [unityros-ws](https://github.com/Look-No-Hands-Simulator/unityros-ws) on Github and clone this repository into a folder with `git clone https://github.com/Look-No-Hands-Simulator/unityros-ws` in your terminal in the chosen directory.
 - Then follow the instructions inside its README.md on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories. source ROS2 with `source opt/ros/foxy/setup.bash`. Or replace foxy with your distro.
 - Please then build the workspace with `colcon build --symlink-install` in the terminal at the root of 'unityros-ws' folder.
-- and now you should be able to use the simulator by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built)
+- and now you should be able to use the simulator's ROS2 nodes by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built, therefore probably in rosunity-ws root).
 - and then use `ros2 run ros_tcp_endpoint default_server_endpoint` to run the ROS-TCP-Connector endpoint node and start the server in a new terminal.
 - then you can open unity-assets (the Unity project folder) in Unity.
 - Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
