@@ -9,6 +9,9 @@ ROS2 Foxy.
 Unity ver 2022.3.11.+.
 Rviz2.
 
+- Install Ubuntu 20.04 by having an empty USB stick, downloading Ubuntu onto it using a software such as balenar etcher, plug it into a computer, now create a dual boot by splitting the memory, or alternatively download it onto an external SSD drive.
+- Install ROS2 Foxy here https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
+
 ## How to use
 - Navigate to [unityros-ws](https://github.com/Look-No-Hands-Simulator/unityros-ws) on Github and clone this repository into a folder with `git clone https://github.com/Look-No-Hands-Simulator/unityros-ws` in your terminal in the chosen directory.
 - Then follow the instructions inside its README.md on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories. source ROS2 with `source opt/ros/foxy/setup.bash`. Or replace foxy with your distro.
