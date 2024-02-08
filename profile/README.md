@@ -9,7 +9,7 @@ ROS2 Foxy.
 Unity ver 2022.3.11.+.
 Rviz2.
 
-- Install Ubuntu 20.04 by having an empty USB stick, downloading Ubuntu onto it using a software such as [balena etcher](https://etcher.balena.io/), plug it into a computer and boot into the USB drive, now create a dual boot by splitting the memory, or alternatively download it onto an external SSD drive.
+- Install Ubuntu 20.04 by having an empty USB stick, downloading Ubuntu onto it using a software that can flash OS images onto SD cards and USB devices such as [Rufus](https://rufus.ie/en/) or [Balena Etcher](https://etcher.balena.io/), plug it into a computer and boot into the USB drive, now create a dual boot by splitting the memory, or alternatively download it onto an external SSD drive.
 - Install ROS2 Foxy here https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 ## How to use
