@@ -34,11 +34,12 @@ Make sure you have https://github.com/Unity-Technologies/ROS-TCP-Connector by fo
 ## What the simulator includes
 - Simulated sensors that publish to topics including: LiDAR, IMU, GPS, Wheelspeeds, Stereo camera, Depth maps, Ground truth position. With gaussian noise and covariance options.
 - RVIZ2 visualization of sensor data.
-- A physics vehicle model of the ADS-DV with 4 wheel power and ackermann steering
+- A physics vehicle model of the ADS-DV with 4 wheel power and ackermann steering.
 - Vehicle model keyboard control for braking, steer, acceleration (space = brake, w = acceleration, s = reverse if enabled) with published control values on ROS2 topics.
 - Vehicle model control through ROS2 subscription to topics reading ADS_DV_Msgs type commands (ADS_DV_DriveF, ADS_DV_Steer, ADS_DV_Brake) to move the vehicle. The ADS-DV simulated subscribes to `/AI2VCUSteer` , `/AI2VCUDriveF` , `/AI2VCUDriveReverse` (if reverse included) , `/AI2VCUBrake` , The names of each of these can be changed within Unity by selecting CAR-ROOT object and changing the values within the Car Control script inside the Inspector.
 - Generation of cone track maps with a selection menu.
 - Day and night cycle.
+- Speedometer.
 
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
