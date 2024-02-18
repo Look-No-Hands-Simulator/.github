@@ -90,7 +90,7 @@ Resources and tutorials that were a great help:
 ## Where did the funny name come from?
 At my time at Oxford Brookes Racing: Autonomous this joke was made because the cars are autonomously driven. 
 
-### Helpful diagrams
+## Helpful diagrams
 ![image](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/820a621c-ab57-4bc4-94a0-b6c65bc453c6)
 
 
