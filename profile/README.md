@@ -43,7 +43,8 @@ Make sure you have https://github.com/Unity-Technologies/ROS-TCP-Connector by fo
 - Generation of cone track maps with a selection menu.
 - Day and night cycle.
 - Speedometer.
-- Minimap. 
+- Minimap.
+- A VCU script to manage the states as defined by FS-AI_API on Github by IMechE.
 
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
