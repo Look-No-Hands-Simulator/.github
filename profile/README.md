@@ -1,5 +1,4 @@
 ## Hello there! :)
-![image](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/174a9ea1-39b5-4e27-8a6d-054d97fdfacf)
 
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
 
