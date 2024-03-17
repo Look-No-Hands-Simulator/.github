@@ -23,7 +23,7 @@ Rviz2.
 - Please then build the workspace with `colcon build --symlink-install` in the terminal at the root of 'unityros-ws' folder.
 - and now you should be able to use the simulator's ROS2 nodes by sourcing the setup.bash file with `source ./install/setup.bash` (make sure you are in the directory above the install folder that was built, therefore probably in rosunity-ws root).
 - and then use `ros2 run ros_tcp_endpoint default_server_endpoint` to run the ROS-TCP-Connector endpoint node and start the server in a new terminal.
-- then you can open unity-assets (the Unity project folder) in Unity.
+- then you can open unity-assets (the Unity project folder) in Unity-Hub and open the Scenes folder and then open the Trackspawner scene.
 - Now you must create your own launch file if you want to use your pipeline with it to include your nodes.
 - If you are having trouble please make sure you remembered to source ROS2 with `source opt/ros/foxy/setup.bash`.
 - It's probably best to keep your software pipeline ROS2 code in a seperate workspace folder therefore you can `source ./install/setup.bash` source it whilst also sourcing the unityros-ws and then use both at the same time, remember you'll need to source them in every new terminal you open.
