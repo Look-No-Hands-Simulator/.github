@@ -3,7 +3,7 @@
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
 
 
-## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and for Oxford Brookes Racing: Autonomous, the university's FSAI (FSD) team. But is open source for all teams, all over the world, and you can use it if you are not on a team too or whoever you are (as long as you don't use it for profit maybe)?
+## This is the Look No Hands Formula Student Driverless Simulator, it was developed with support from Oxford Brookes University as a dissertation project and for Oxford Brookes Racing Autonomous, the university's FSAI (FSD) team. But is open source for all teams, all over the world, and you can use it if you are not on a team too or whoever you are (as long as you don't use it for profit maybe)?
 ## Please feel free to fork and add things to it or change it once it is submitted!!! 
 ## I believe in the progress of improving safety in vehicles to prevent crashes and electrification of cars to reduce pollution. I hope these things can motivate you if you work in this area!
 
@@ -90,7 +90,7 @@ Resources and tutorials that were a great help:
 **I think Unreal engine would have been better suited for this project therefore if you are thinking of doing a similar project I recommend you to use Unreal engine for its superior performance (C++), automotive support, and better lighting and destruction system. A simulator like this has already been created here https://fs-driverless.github.io/Formula-Student-Driverless-Simulator/v2.2.0/software-install-instructions/ and Formula Student Driverless Simulator is very well documented and based on AirSim by Microsoft https://github.com/microsoft/AirSim/tree/main!**
 
 ## Where did the funny name come from?
-At my time at Oxford Brookes Racing: Autonomous this joke was made because the cars are autonomously driven. 
+At my time at Oxford Brookes Racing Autonomous this joke was made because the cars are autonomously driven. 
 
 ## Helpful diagrams
 ![image](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/820a621c-ab57-4bc4-94a0-b6c65bc453c6)
