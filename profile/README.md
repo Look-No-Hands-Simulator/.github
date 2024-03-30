@@ -93,7 +93,8 @@ Resources and tutorials that were a great help:
 At my time at Oxford Brookes Racing Autonomous this joke was made because the cars are autonomously driven. 
 
 ## Helpful diagrams
-![image](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/820a621c-ab57-4bc4-94a0-b6c65bc453c6)
+![image](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/fc84de32-9dcc-488e-b1f7-aa2c82461831)
+
 
 
 <!--
