@@ -1,4 +1,4 @@
-## Hello there! :)
+## Hello there! :) **Sorry the program is broken/has major performance issues right now so it's private**
 
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
 
