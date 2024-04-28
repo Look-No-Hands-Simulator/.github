@@ -48,6 +48,9 @@ Make sure you have https://github.com/Unity-Technologies/ROS-TCP-Connector by fo
 - Minimap.
 - A VCU script to manage the states as defined by FS-AI_API on Github by IMechE.
 
+![bigorangecones](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/1fa68b42-7dc5-4e07-89f7-e5261803cd7c)
+
+
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
 https://www.imeche.org/events/formula-student/team-information/fs-ai
