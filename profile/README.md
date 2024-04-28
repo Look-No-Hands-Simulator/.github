@@ -48,8 +48,6 @@ Make sure you have https://github.com/Unity-Technologies/ROS-TCP-Connector by fo
 - Minimap.
 - A VCU script to manage the states as defined by FS-AI_API on Github by IMechE.
 
-![bigorangecones](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/1fa68b42-7dc5-4e07-89f7-e5261803cd7c)
-
 
 ## What is formula Student Driverless?
 It's a student competition for creating autonomous racing cars in university teams created by IMechE. 
@@ -98,16 +96,5 @@ At my time at Oxford Brookes Racing Autonomous this joke was made because the ca
 ## Helpful diagrams
 ![LNH general diagram5 drawio](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/f79f1919-cd94-4093-b2aa-78dd8db7f418)
 
+![bigorangecones](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/1fa68b42-7dc5-4e07-89f7-e5261803cd7c)
 
-
-
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
