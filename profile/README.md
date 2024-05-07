@@ -17,7 +17,7 @@ Rviz2.
 - Install ROS2 Foxy here https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html
 
 ## How to use
-- If you are using this project in any way please fork one of the repositories for reference that you are using it. I think unityros-ws or unity-assets may be good repositories to fork. Given there are many repositories you may want to commence with cloning thereafter to use the yaml file with vcstool to pull the rest of the repositories into your workspace (keep reading). Also I think you are not allowed to use this in your dissertation project or public code facing projects until after I graduate in September 30th 2024 if you want to do that. But after I graduate it's fine, just provide a link to this repository!
+- If you are using this project in any way please fork one of the repositories for reference that you are using it.
 - Navigate to [unityros-ws](https://github.com/Look-No-Hands-Simulator/unityros-ws) on Github and clone this repository into a folder with `git clone https://github.com/Look-No-Hands-Simulator/unityros-ws` in your terminal in the chosen directory. 
 - Then follow the instructions inside its README.md on your Ubuntu computer and it will create a ROS2 workspace and pull the rest of the repositories. source ROS2 with `source opt/ros/foxy/setup.bash`. Or replace foxy with your distro.
 - Please then build the workspace with `colcon build --symlink-install` in the terminal at the root of 'unityros-ws' folder.
