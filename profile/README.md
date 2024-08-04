@@ -1,4 +1,5 @@
 ## Hello there! :) 
+# Feel free to use the simulator if you are a member of any FSAI team. If you can contribute to the repository this is also very welcome! The simulator is currently facing problems with a bug which causes it to freeze after some time (possibly a memory leak). I am hoping to work on it further in the future but not at the moment. It publishes simulated sensor data over ROS2 therefore your algorithms for guiding the vehicle must use ROS2.
 
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
 
