@@ -1,5 +1,5 @@
 ## Hello there! :) 
-# Feel free to use the simulator if you are a member of any FSAI team. If you can contribute to the repository this is also very welcome! The simulator is currently facing problems with a bug which causes it to freeze after some time (possibly a memory leak). I am hoping to work on it further in the future but not at the moment. It publishes simulated sensor data over ROS2 therefore your algorithms for guiding the vehicle must use ROS2.
+# Feel free to use the simulator if you are a member of any FSAI team. If you can contribute to the repository this is also very welcome! The simulator is currently facing problems with a bug which causes it to freeze after some time (possibly a memory leak). I am hoping to work on it further in the future but not at the moment. It publishes simulated sensor data over ROS2, and takes control commands through ROS2 using the FSAI-API msg formats, therefore your algorithms for guiding the vehicle must use ROS2. I hope to add some videos to help explain more clearly the simulator sometime. To use it with your algorithms you must write a launch file which includes your ROS2 nodes and the simulator ROS-TCP-Connector node then also run the simulator in Unity. 
 
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
 
