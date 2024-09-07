@@ -113,5 +113,6 @@ Uses calculations from Unity.
 ### ZED camera
 Takes pixels from render textures of camera texutres, reorganises them into BGRA format. 
 ### Wheelspeeds
+Calculations using the Wheelcolliders.
 ## State machine
 Inside the program is an internal state machine that adheres to the FSAI state machine. It will change the conditions depending on what the car is doing. The PC can also send state changing commands through ROS2 topics. 
