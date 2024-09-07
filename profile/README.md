@@ -103,7 +103,7 @@ At my time at Oxford Brookes Racing Autonomous this joke was made because the ca
 
 # How things work
 ## Control
-Actuates steering, throttle, brakes. Steering computes left and right angles based on Ackermann steering. Zero limiter limits zeros that can come in a msg so the car is not going straight when it does not mean to. 
+Actuates steering, throttle, brakes. Steering computes left and right angles based on Ackermann steering, middle wheel steering angle is given, work out how much ratio the middle steering angle is to the max angle of the inner or outer ackermann steering of each wheel depending on turn direction (positive = left, negative = right). Zero limiter limits zeros that can come in a msg so the car is not going straight when it does not mean to. 
 ## ROS2-interface
 ## Sensors simulations
 ### GPS
