@@ -100,3 +100,15 @@ At my time at Oxford Brookes Racing Autonomous this joke was made because the ca
 
 ![bigorangecones](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/1fa68b42-7dc5-4e07-89f7-e5261803cd7c)
 
+
+# How things work
+## Control
+## ROS2-interface
+## Sensors simulations
+### GPS
+Takes initial position of sensor as latitude and longitude around the world, so you would get this from the internet as to your track location such as Silverstone Circuit is the default. Gets the difference in meters from this origin from the Unity engine position of the car in the XYZ coordinates (corresponding to the lat and lon on the YZ**) and converts this to radians so it is a fraction of the position around the earth and adds this to the origin values. The longitude has an extra calculation using the Cosine (at 0 the equator the cosine is 1 and as you move further away the cosine shrinks) which accounts for the lines (meridians) getting closer together as they approach the poles shrinking the circumference, this can be imagined as a calculation of taking slices of circles that are shrinking.
+### IMU
+### ZED camera
+### Wheelspeeds
+## State machine
+Inside the program is an internal state machine that adheres to the FSAI state machine. It will change the conditions depending on what the car is doing. The PC can also send state changing commands through ROS2 topics. 
