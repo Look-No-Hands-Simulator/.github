@@ -111,7 +111,7 @@ Takes initial position of sensor as latitude and longitude around the world, so 
 ### IMU
 Uses calculations from Unity. 
 ### ZED camera
-Takes pixels from render textures of camera texutres, reorganises them into BGRA format. 
+Takes pixels from render textures of camera textures, reorganises them into BGRA format. 
 ### Wheelspeeds
 Calculations using the Wheelcolliders.
 ## State machine
