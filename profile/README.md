@@ -113,7 +113,11 @@ Takes initial position of sensor as latitude and longitude around the world, so 
 Uses calculations from Unity. 
 ### ZED camera
 Takes pixels from render textures of camera textures, reorganises them into BGRA format. 
+### Depth map
+Uses ImageSynthesis to create depth image from textures. 
 ### Wheelspeeds
 Calculations using the Wheelcolliders.
+### LiDAR
+LiDAR publishes pointcloud.
 ## State machine
 Inside the program is an internal state machine that adheres to the FSAI state machine. It will change the conditions depending on what the car is doing. The PC can also send state changing commands through ROS2 topics. 
