@@ -9,9 +9,9 @@
 ## I believe in the progress of improving safety in vehicles to prevent crashes and electrification of cars to reduce pollution. I hope these things can motivate you if you work in this area! Through Formula Student you can learn more skills.
 
 ## Aimed System Requirements (may work on other systems, I have tested it on ROS2 Humble with Ubuntu Jammy Jelly and it works so should be fine on most ROS2 and Ubuntu systems and most Unity releases above the mentioned version)
-Ubuntu 20.04. 
-ROS2 Foxy.
-Unity ver 2022.3.11.+.
+Ubuntu 20.04. <br>
+ROS2 Foxy. <br>
+Unity ver 2022.3.11.+. <br>
 Rviz2.
 
 - Install Ubuntu 20.04 by having an empty USB stick, downloading Ubuntu onto it using a software that can flash Operating System images onto SD cards and USB devices such as [Rufus](https://rufus.ie/en/) or [Balena Etcher](https://etcher.balena.io/), plug it into a computer and boot into the USB drive, now create a dual boot by splitting the memory (Be careful! If you do this wrong by selecting a drive or memory location which is already in use and overwrite over it then you can overwrite and delete files on your computer so make sure if you have important things on there then maybe back them up), or alternatively download it onto an external SSD drive.
