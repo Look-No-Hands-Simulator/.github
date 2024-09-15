@@ -8,7 +8,7 @@
 ## Feel free to fork and add things to it or change it
 ## I believe in the progress of improving safety in vehicles to prevent crashes and electrification of cars to reduce pollution. I hope these things can motivate you if you work in this area! Through Formula Student you can learn more skills.
 
-## Aimed System Requirements (may work on other systems, I have tested it on ROS2 Humble with Ubuntu Jammy Jelly and it works so should be fine on most ROS2 and Ubuntu systems)
+## Aimed System Requirements (may work on other systems, I have tested it on ROS2 Humble with Ubuntu Jammy Jelly and it works so should be fine on most ROS2 and Ubuntu systems and most Unity releases above the mentioned version)
 Ubuntu 20.04. 
 ROS2 Foxy.
 Unity ver 2022.3.11.+.
