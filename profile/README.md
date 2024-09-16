@@ -1,4 +1,8 @@
 ## Hello there! :) 
+
+# This simulator LNH is for educational use in Formula Student Artificial Intelligence. It is designed for student education to help testing algorithms for an autonomous vehicle which completes missions in an environment of yellow, blue, and orange cones. Please adhere to the hippocratic license when using this simulator and reference its use along with recognition to Oxford Brookes University's Oxford Brookes Racing Autonomous team (which inspired this simulator's creation). Please fork a repository if you are using this simulator.
+[![Hippocratic License HL3-CORE](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-CORE&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/core.html)
+
 ## Feel free to use the simulator if you are a member of any FSAI team. If you can contribute to the repository this is also very welcome! The simulator is currently facing problems with a bug which causes it to freeze after some time (possibly a memory leak). I am hoping to work on it further in the future but not at the moment. It publishes simulated sensor data over ROS2, and takes control commands through ROS2 using the FSAI-API msg formats, therefore your algorithms for guiding the vehicle must use ROS2. I hope to add some videos to help explain more clearly the simulator sometime. To use it with your algorithms you must write a launch file which includes your ROS2 nodes and the simulator ROS-TCP-Connector node then also run the simulator in Unity. 
 
 ![lnh](https://github.com/Look-No-Hands-Simulator/.github/assets/36344274/5aa4bf87-c20b-426c-b86f-43ebf9fd2470)
